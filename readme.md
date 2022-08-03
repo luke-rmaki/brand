@@ -1,13 +1,14 @@
-## Getting Started
+# Silence
+Silence is the name of my color theme (because I like silence).
 
-### Cloning the repo
+This repo generates a JSON and CSS file with the colors (in hex format) for the theme.
 
-```sh
-bun create blank ./NAME_HERE
-```
+The entry file is **prism.json** generated from [Github's Prism tool](https://primer.style/prism/).
 
-### Execute a file (eg. src/index.js)
-    
-```sh
-bun run ./src/index.js
-```
+## Output
+- [JSON](/colors.json)
+- [CSS](colors.css)
+
+## Ported to:
+- [Obsidian](https://github.com/luke-rmaki/silence-obsidian)
+- [VSCode - coming soon](https://github.com/luke-rmaki/silence-vscode)

@@ -2,6 +2,9 @@
   "compilerOptions": {
     "lib": ["ESNext"],
     "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "target": "esnext",
     // "bun-types" is the important part
     "types": ["bun-types"]
