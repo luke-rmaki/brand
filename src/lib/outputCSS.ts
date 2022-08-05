@@ -10,7 +10,7 @@ export async function outputCSS(colorObj) {
 `;
 
   try {
-    await writeFile(`./colors.css`, css);
+    await writeFile(`./assets/colors.css`, css);
   } catch (error) {
     console.log(`Error writing colors.css: ${error}`);
   }

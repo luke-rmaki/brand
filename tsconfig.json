@@ -5,8 +5,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "target": "esnext",
+    "sourceMap": true,
+    "target": "esnext"
     // "bun-types" is the important part
-    "types": ["bun-types"]
   }
 }
