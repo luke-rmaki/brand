@@ -16,4 +16,4 @@ The entry file is **prism.json** generated from [Github's Prism tool](https://pr
 
 ## Ported to:
 - [Obsidian](https://github.com/luke-rmaki/silence-obsidian)
-- [VSCode - coming soon](https://github.com/luke-rmaki/silence-vscode)
+- [VSCode](https://github.com/luke-rmaki/silence-vscode)
