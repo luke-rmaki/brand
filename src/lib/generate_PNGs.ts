@@ -1,4 +1,4 @@
-import convert from "../../../../../../utils/svg-to-png/mod.ts";
+import convert from "https://deno.land/x/svg_to_png@v1.1.0/mod.ts";
 import { get_output_path } from "./get_output_path.ts";
 
 export async function generate_PNGs(background: string) {
