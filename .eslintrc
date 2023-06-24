@@ -1,6 +1,0 @@
-{
-  "extends": ["rmaki"],
-  "rules": {
-    "no-console": "off"
-  }
-}
