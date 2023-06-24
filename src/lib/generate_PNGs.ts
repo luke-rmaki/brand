@@ -14,7 +14,11 @@ export async function generate_PNGs(background: string) {
       height: size,
       background_color: background,
     };
-    await convert(logo_path, `${get_output_path()}logo-${size}.png`, options);
+    await convert(
+      logo_path,
+      `${get_output_path()}logo/logo-${size}.png`,
+      options,
+    );
   }
 
   for (const size of sizes) {
@@ -25,7 +29,7 @@ export async function generate_PNGs(background: string) {
     };
     await convert(
       logo_full_path,
-      `${get_output_path()}logo-full-${size}.png`,
+      `${get_output_path()}logo/logo-full-${size}.png`,
       options,
     );
   }
